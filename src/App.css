@@ -1,0 +1,41 @@
+.folder {
+  margin-top: 6px;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px;
+  width: 300px;
+  cursor: pointer;
+}
+
+.file {
+  margin-top: 5px;
+  padding-left: 5px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  width: 130px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.list > li {
+  border: 1px solid black;
+  padding: 2px 4px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.list-container {
+  position: absolute;
+  z-index: 999;
+  margin-left: 145px;
+  margin-top: -25px;
+}
